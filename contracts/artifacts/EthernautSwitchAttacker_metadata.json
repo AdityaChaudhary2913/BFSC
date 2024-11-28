@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_switchContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "exploit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "switchContract",
+				"outputs": [
+					{
+						"internalType": "contract ISwitch",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Switch.sol": "EthernautSwitchAttacker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Switch.sol": {
+			"keccak256": "0x3f8e396d2fc81f7589db6b2504f7f4790ce4320f24aa3a0948f9236b632ef4c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://951e6ec82ea8af4920ffc6a89cf9e10134705e955eedfcd8d62672ee17576906",
+				"dweb:/ipfs/QmXewAYrC7JEL6qN4UspF2PW4rsR9dHcbTm5Jy74a2qnzf"
+			]
+		}
+	},
+	"version": 1
+}

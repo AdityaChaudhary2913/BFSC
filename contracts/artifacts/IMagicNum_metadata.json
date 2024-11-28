@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "setSolver",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "solver",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MagicNumber.sol": "IMagicNum"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MagicNumber.sol": {
+			"keccak256": "0x768af394d2d4d630da6039f2b506c54c9b97abd4bfaecd46bb704f95479581c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e9ef2d44c00f2a14e5d3c8cea01ac1677c85f35fe40a60144e17b6e45c727ed",
+				"dweb:/ipfs/QmfNy5jK2SG6Q1UEqtNAWBjfXcEeKfjyb2vy9Z7WKzJ2KC"
+			]
+		}
+	},
+	"version": 1
+}

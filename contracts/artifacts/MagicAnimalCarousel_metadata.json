@@ -1,0 +1,156 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "AnimalNameTooLong",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "InvalidCarouselId",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "MAX_CAPACITY",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "crateId",
+						"type": "uint256"
+					}
+				],
+				"name": "carousel",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "animalInside",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "animal",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "crateId",
+						"type": "uint256"
+					}
+				],
+				"name": "changeAnimal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentCrateId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "animalName",
+						"type": "string"
+					}
+				],
+				"name": "encodeAnimalName",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "animal",
+						"type": "string"
+					}
+				],
+				"name": "setAnimalAndSpin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Magic Animal Crousal.sol": "MagicAnimalCarousel"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Magic Animal Crousal.sol": {
+			"keccak256": "0x81ad1f323c0e2deb7ae834cf108393984a4331e3ae3846ab6293841f34c431be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e87eb15b52d463350b585ad63703065c4b5f2e6ca1b945570e1ffdc97493d0c6",
+				"dweb:/ipfs/QmQ3fhroG4obPVNB13Qmm9FH8V53Ta3a6pMeHHPEsbEuHp"
+			]
+		}
+	},
+	"version": 1
+}

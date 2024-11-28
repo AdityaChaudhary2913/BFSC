@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_tar",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/King.sol": "HackKing"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/King.sol": {
+			"keccak256": "0x92a001bc5a7cd9eee6b7cb583525dbdb929ad8f767d07047a50fa63d1c8ce9ae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da8866b688381441c89db86c25c7a37ae63e212dcd5e5475b7f090a6b4272fd3",
+				"dweb:/ipfs/QmYK4UhC1gkqa7kJ121roM1ZVdRRMHZP6HxBLfhLNg4GWG"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tar",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Re-entrancy.sol": "Attack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Re-entrancy.sol": {
+			"keccak256": "0x6900100e3b0ff8a3e26ad8c5fbf168c9604051b536698eff4d09b5e1c0d8c1e7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://db5c9c1aa8b99025b3784cb1275268b74add2e50e96226cff99f847a56afaaee",
+				"dweb:/ipfs/QmV3uX8h4HhbS591W6ZVriAcXENHjrJ6eNjj6jM5Eggrdc"
+			]
+		}
+	},
+	"version": 1
+}

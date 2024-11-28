@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_add",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Token.sol": "HackToken"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Token.sol": {
+			"keccak256": "0x6554c43bdefeb8876e3f2dadbbd6d8a8344fb46ba646ff3a865dba7ab3d750c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ffbcd19e53be350f0be0879f91ff5c96a7f49a2a9324d2b63c0fa8363527e2b",
+				"dweb:/ipfs/QmYwN2Yb86ivXbAKxY51TB5UNXg3fDHMDxJBpypWJqNwYn"
+			]
+		}
+	},
+	"version": 1
+}

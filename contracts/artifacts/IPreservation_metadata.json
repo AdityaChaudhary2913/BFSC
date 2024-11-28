@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "setFirstTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Preservation.sol": "IPreservation"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Preservation.sol": {
+			"keccak256": "0x2fc1dc976a7609a22e966df0e5d460fb1ce072e8b850af9c54b2d573bb71a60a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b380c8ca4c8a1f4e828b173daf2072cb5eb8e7d7edb60ffcf99665115565308f",
+				"dweb:/ipfs/QmNsaU6pTqkDmNmPzf3kNES45eZaaN7Tk3TP3S5ydbLtbp"
+			]
+		}
+	},
+	"version": 1
+}

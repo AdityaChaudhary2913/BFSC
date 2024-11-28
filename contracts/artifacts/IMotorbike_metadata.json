@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "horsePower",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "upgrader",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Motorbike.sol": "IMotorbike"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Motorbike.sol": {
+			"keccak256": "0xbf16ea5ac42c68900458691d5d5cdde346aaa51e0d27c7fa30f488890f77cbf9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b22fe296264b659d832f991b025412211492d5b6159ccb4670df67e0307a763f",
+				"dweb:/ipfs/QmXUokfAer1VuhqXuFXm8KA2ihL26aX4W3Rg1F8BxjYBvA"
+			]
+		}
+	},
+	"version": 1
+}

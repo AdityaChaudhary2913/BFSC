@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "setWithdrawPartner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Denial.sol": "IDenial"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Denial.sol": {
+			"keccak256": "0xdec00cc0021b8971c35e93a65609228f09b6de707c924b6ce9083c283d3bcad9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad45ebf493f7d10e208d5e699adb15c67f9507f343cef6d2419b541186caba35",
+				"dweb:/ipfs/QmVsDoK6jCM1piNuw444Cn5abq71MmWGHqNEMVRqphvVz3"
+			]
+		}
+	},
+	"version": 1
+}

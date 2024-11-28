@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_add",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pass",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Vault.sol": "HackVault"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Vault.sol": {
+			"keccak256": "0xe8d209784eb661d2e4188cff1134f00c06fdf12476aa65c553885bb3f1ac71e7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://10931160998553a7103ead08ad613e09ce199a237b934d05c6fc9660ad2f219c",
+				"dweb:/ipfs/QmWxN9vrApc3xHTZAjaJGfJs2ry22gQXDC3jCrEsuKofon"
+			]
+		}
+	},
+	"version": 1
+}

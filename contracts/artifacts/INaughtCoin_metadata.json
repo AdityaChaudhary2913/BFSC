@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "player",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NaughtCoins.sol": "INaughtCoin"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NaughtCoins.sol": {
+			"keccak256": "0x75eaa9d877cfffb8372d6df56938297930351e94626740a9822dc2d49b81d4b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd6b7bd28e57f5f8d5d57fd0bac0af9a3f477286839446d38b498f7748f21737",
+				"dweb:/ipfs/QmanJBFGwS2bQtgSZHCEmuciMk5DXPo2enjtQ99ixhzS18"
+			]
+		}
+	},
+	"version": 1
+}
